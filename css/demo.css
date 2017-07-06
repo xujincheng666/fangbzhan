@@ -1,0 +1,519 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    height: 1600px;
+    width: 100%;
+    text-align: center;
+}
+
+#nav{
+	height: 45px;
+	width: 100%;
+    background: white;
+    list-style: none;
+    opacity: 0.5;
+}
+#nav>li{
+    line-height: 45px;
+      float: left;
+      position: relative;
+      left: 200px;
+      height: 45px;
+      text-align: center;
+      font-size: 14px;
+      width: 50px;
+}
+#nav>li>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#beijing{
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/beijing.jpg") ;
+}
+#tougaokuozhan{
+    width: 210px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    top: 45px;
+    right: 150px;
+    display: none;
+}
+#tougaokuozhan>ul{
+   list-style: none;
+}
+#tougaokuozhan>ul>li{
+    float: left;
+    text-align: center;
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+
+}
+#tougaokuozhan>ul>li>a{
+    text-align: center;
+    text-decoration: none;
+    color:#da5380 ;
+}
+#tougaokuozhan>ul>li>a>img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 12px;
+}
+#tougaokuozhan>ul>li>a>p{
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+
+}
+input,
+textarea {
+    /*清除输入框边框*/
+    border: none;
+    /*禁止收缩*/
+    resize: none;
+    /*清除默认选中框效果*/
+    outline: none;
+    /*清除浏览器默认的样式*/
+    -webkit-appearance: none;
+}
+#sousuo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+
+}
+
+::-ms-clear,::-ms-reveal{display:none;}
+/*取消输出框的x号*/
+#content{
+    width: 70%;
+    min-width: 70%;
+    height:360px;
+    margin-left: 15%;
+
+}
+#content>ul{
+    margin-top: 10px;
+    list-style: none;
+    height: 40px;
+
+}
+#content>ul>li{
+    float: left;
+    margin-left: 32px;
+
+}
+#content>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+#content>ul>li>a>span{
+    background:#da5380 ;
+    font-size: 10px;
+}
+#content>ul>li>a>img{
+    width: 20px;
+    height: 20px;
+}
+#donghua{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 290px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#donghua>ul{
+    list-style: none;
+
+}
+#donghua>ul>li{
+    height: 25px;
+
+}
+#fanju{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#fanju>ul{
+    list-style: none;
+    position: absolute;
+}
+#fanju>ul>li{
+    height: 25px;
+}
+#guochan{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 410px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#guochan>ul{
+    list-style: none;
+}
+#guochan>ul>li{
+    height: 25px;
+}
+#yinyue{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 470px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#yinyue>ul{
+    list-style: none;
+}
+#yinyue>ul>li{
+    height: 25px;
+}
+
+#wudao{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#wudao>ul{
+    list-style: none;
+}
+#wudao>ul>li{
+    height: 25px;
+}
+
+#youxi{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 590px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#youxi>ul{
+    list-style: none;
+}
+#youxi>ul>li{
+    height: 25px;
+}
+
+#keji{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 650px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#keji>ul{
+    list-style: none;
+}
+#keji>ul>li{
+    height: 25px;
+}
+
+#shenghuo{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 710px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#shenghuo>ul{
+    list-style: none;
+}
+#shenghuo>ul>li{
+    height: 25px;
+}
+
+#guichu{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 770px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#guichu>ul{
+    list-style: none;
+}
+#guichu>ul>li{
+    height: 25px;
+}
+
+#shishang{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 830px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#shishang>ul{
+    list-style: none;
+}
+#shishang>ul>li{
+    height: 25px;
+}
+#guanggao{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 890px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#guanggao>ul{
+    list-style: none;
+}
+#guanggao>ul>li{
+    height: 25px;
+}
+
+#yule{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 950px;
+    display: none;
+    z-index: 999;
+}
+#yule>ul{
+    list-style: none;
+}
+#yule>ul>li{
+    height: 25px;
+}
+
+#yinshi{
+    width: 200px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 1010px;
+    display: none;
+    z-index: 999;
+    box-shadow: 1px 0 1px 0 black;
+}
+#yinshi>ul{
+    list-style: none;
+
+}
+#yinshi>ul>li{
+    height: 25px;
+}
+#guanggaolunbo{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    /*z-index: -1;*/
+    float: left;
+}
+#guanggaolunbo>ul{
+    list-style: none;
+    width: 1200px;
+    height: 250px;
+}
+#guanggaolunbo>ul>li{
+    float: left;
+}
+#guanggaolunbo>ol{
+    list-style: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: -10px;
+    right: 0;
+}
+
+.guanggao{
+    float: left;
+    width: 600px;
+    height: 250px;
+    position: relative;
+    left: 380px;
+}
+.guanggao #g1{
+    list-style: none;
+    height: 42px;
+    width: 500px;
+
+}
+.guanggao #g1>li{
+    float: left;
+    width: 145px;
+    height: 110px;
+    margin: 10px;
+}
+.guanggao #g1>div{
+    width: 145px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.guanggao #g2{
+    list-style: none;
+    height: 42px;
+    width: 500px;
+}
+.guanggao  #g2>li{
+    float: left;
+    width: 145px;
+    height: 110px;
+    margin: 10px;
+}
+.tuiguang{
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+}
+.tuiguang>img{
+    float: left;
+}
+.tuiguang>b{
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-size: 20px;
+}
+.tuiguang>span{
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    font-size: 12px;
+}
+.tuiguang>span>a{
+  text-decoration: none;
+    color: black;
+}
+.tuiguang>span>a:hover{
+    color: blue;
+}
+.zaixian{
+    background: #e5e9ef;
+    height: 20px;
+    width: 250px;
+    position: absolute;
+    top: 95%;
+    right: 20%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+.tuiguangneirong{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 120px;
+}
+.tuiguangneirong>ul{
+    position: absolute;
+    list-style: none;
+}
+.tuiguangneirong>ul>li{
+    float: left;
+    margin: 10px;
+}
+#youdaohang{
+    position: absolute;
+    width: 50px;
+    height: 500px;
+    right: 100px;
+    top: 270px;
+    border-radius:5px ;
+    border: 1px solid #c1c3ff;
+    background: #e6e7ff;
+    position: fixed;
+}
+#youdaohang ul{
+    list-style: none;
+}
+#youdaohang ul li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#youdaohang ul li:hover{
+    background: #5b70ff;
+    cursor: pointer;
+}
+#youdaohang ul li a{
+   text-decoration: none;
+    color: black;
+}
+#dibu{
+    width: 100%;
+    height: 300px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 1600px;
+    z-index: -2;
+    text-align: center;
+}
+
+
+
+
+

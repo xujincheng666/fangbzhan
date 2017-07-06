@@ -1,0 +1,21 @@
+{
+  "name": "demo1",
+  "homepage": "https://github.com/xujincheng666/change",
+  "authors": [
+    "xujincheng <632618058.qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1"
+  }
+}
